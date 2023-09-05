@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="icon" type="image/x-icon" href="./icons/Spotify_icon.svg.png">
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="d-flex">
+
+        <!--left-header--> 
+        <div class="left-block flex-column">
+            <div class="spotify-logo mx-5 my-4">
+                <img src="./icons/Spotify logo.png" alt="spotify-logo" />
+            </div>
+
+            <!--left-header-top-option--->
+            <div class="mx-5 my-5">
+                <div class="my-3">
+                    <div class="left-option-top-text"><img src="./icons/Home.png" alt="home png" /><span class="mx-3"> Home</span></div>
+                </div>
+                <div class="my-3">
+                    <div class="left-option-top-text"><img src="./icons/Search.png" alt="search-png" /><span class="mx-3"> Search</span></div>
+                </div>
+                <div class="my-3">
+                    <div class="left-option-top-text"><img src="./icons/Your library.png" alt="ylib-png" /><span class="mx-3 "><a class="text-decoration-none text-white" href="./yourlib.html"> YourLibrary</a></span></div>
+                </div>
+            </div>
+
+            <!--left-options-middle--->
+            <div class="mx-5 my-5">
+                <div class="Create-Playlist d-inline-flex align-items-center my-2">
+                    <img src="./icons/plus.png" alt="plus image" />
+                    <div class="left-option-middle-text m-2 ">Create-Playlist</div>
+                </div>
+                <div class="liked-songs d-inline-flex w-75 align-items-center my-2">
+                    <img src="./icons/purpleheart.png" alt="likesongspng" />
+                    <div class="left-option-middle-text m-2">Liked Songs</div>
+                </div>
+                <div class="your-episodes d-inline-flex align-items-center my-2">
+                    <img src="./icons/hotspot.png" alt="Episodespng" />
+                    <div class="left-option-middle-text m-2">Your Episodes</div>
+                </div>
+            </div>
+
+            <!--left-options-playlist--->
+            <div class="left-playlist mt-4 mx-5 my-5">
+                <p class="left-playlist-text text-white fst-normal fw-bolder">FAV</p>
+                <p class="left-playlist-text text-white fst-normal fw-bolder">Daily Mix 1</p>
+                <p class="left-playlist-text text-white fst-normal fw-bolder">Discover Weekly</p>
+                <p class="left-playlist-text text-white fst-normal fw-bolder">Malayalam</p>
+                <p class="left-playlist-text text-white fst-normal fw-bolder">Dance/Electronix Mix</p>
+                <p class="left-playlist-text text-white fst-normal fw-bolder">EDM/Popular</p>
+            </div>
+
+            <div class="install-app mt-5 mx-5 my-5">
+                <p class="install-app-text"><img  src="./icons/download.png" alt="download-img" ><span class="mx-4"> Install App</span></p>
+            </div>
+
+        </div>
+
+        <!--right-block-->
+
+        <div class="right-block  flex-column">
+
+            <!--right-top-navbar-->
+            <nav class="my-right-nav d-flex align-items-center justify-content-between m-3">
+                <div>
+                    <img src="./icons/backward.png" alt="bckwrdimg">
+                    <img class="m-2" src="./icons/forward.png" alt="frwrdimg">
+                </div>
+                <div class="my-nav-d px-1"><img src="./icons/imgs/me.jpg" alt="profile-img"><span class="name-text text-white"> Vivek</span><img class="px-2" src="./icons/down.png"></div>
+            </nav>
+
+            
+            <!--right-title playlist-->
+            <div class="title-playlist mx-5">
+                <h2 class="text-white my-4 ">Good Morning</h2>
+                <div>
+                    <div class=" title-playlist-card d-inline-flex m-2 align-items-center">
+                        <img class="w-25" src="./icons/imgs/Purple-big.png" alt="Purple-big">
+                        <div class="title-playlist-card-text m-4" > Liked Songs</div>
+                    </div>
+                    <div class=" title-playlist-card d-inline-flex m-2 align-items-center">
+                        <img class="w-25" src="./icons/imgs/man.png" alt="man-img">
+                        <div class="title-playlist-card-text m-4" >  Neffex Playlist</div>
+                    </div>
+                    <div class=" title-playlist-card d-inline-flex m-2 align-items-center">
+                        <img class="w-25" src="./icons/imgs/KDA.png" alt="kda-img">
+                        <div class="title-playlist-card-text m-4" > K/DA</div>
+                    </div>
+                    <div class=" title-playlist-card d-inline-flex m-2 align-items-center">
+                        <img class="w-25" src="./icons/imgs/marshmellow.png" alt="marshmellow-img">
+                        <div class="title-playlist-card-text m-4" > Dance/Electronix Mix</div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!--artist-section-->
+            <div class="artist mx-5">
+                <h2 class="text-white my-4">Shows you might like</h2>
+                <div class="d-flex flex-wrap">
+                    <div class="artist-card card shadow m-3 d-inline-flex flex-column align-items-center">
+                        <img class="m-3 artist-image " src="./icons/imgs/Rectangle 21.png" alt="rect21-img">
+                        <h5 class="text-white">Weekly Motivatio...</h5>
+                        <p class="text-white ">Ben Ina Scott</p>
+                    </div>
+                    <div class="artist-card card shadow m-3 d-flex flex-column align-items-center">
+                        <img class="m-3 artist-image" src="./icons/imgs/Rectangle 22.png" alt="rect22-img">
+                        <h5 class="text-white">MEDITATION SELF</h5>
+                        <p class="text-white ">Ibn Hussain Aleen</p>
+                    </div>
+                    <div class="artist-card card shadow m-3 d-flex flex-column align-items-center">
+                        <img class="m-3 artist-image" src="./icons/imgs/Rectangle 23.png" alt="rect21-img">
+                        <h5 class="text-white">Words beyond act...</h5>
+                        <p class="text-white ">Samuel Scott</p>
+                    </div>
+                    <div class="artist-card card shadow m-3 d-flex flex-column align-items-center">
+                        <img class="m-3 artist-image" src="./icons/imgs/Rectangle 16.png" alt="rect21-img">
+                        <h5 class="text-white">The Alexa Show</h5>
+                        <p class="text-white ">Adriana Tom</p>
+                    </div>
+                    <div class="artist-card card shadow m-3 d-inline-flex flex-column align-items-center">
+                        <img class="m-3 artist-image" src="./icons/imgs/Rectangle 21.png" alt="rect21-img">
+                        <h5 class="text-white">Weekly Motivatio...</h5>
+                        <p class="text-white ">Ben Ina Scott</p>
+                    </div>
+                    <div class="artist-card card shadow m-3 d-flex flex-column align-items-center">
+                        <img class="m-3 artist-image" src="./icons/imgs/Rectangle 22.png" alt="rect22-img">
+                        <h5 class="text-white">MEDITATION SELF</h5>
+                        <p class="text-white ">Ibn Hussain Aleen</p>
+                    </div>
+                    <div class="artist-card card shadow m-3 d-flex flex-column align-items-center">
+                        <img class="m-3 artist-image" src="./icons/imgs/Rectangle 23.png" alt="rect21-img">
+                        <h5 class="text-white">Words beyond act...</h5>
+                        <p class="text-white ">Samuel Scott</p>
+                    </div>
+                    <div class="artist-card card shadow m-3 d-flex flex-column align-items-center">
+                        <img class="m-3 artist-image" src="./icons/imgs/Rectangle 16.png" alt="rect21-img">
+                        <h5 class="text-white">The Alexa Show</h5>
+                        <p class="text-white ">Adriana Tom</p>
+                    </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--music-player-->
+    <div class="music-player d-flex justify-content-around align-items-center">
+        <div class="left-margin d-flex align-items-center">
+            <div class="mx-2 my-2"><img src="./icons/imgs/playing-img.png"></div>
+            <div class="d-inline-flex flex-column align-items-center text-white mt-2"><span>Dreaming On</span><span>NEFFEX</span></div>
+            <img class="mx-2" src="./icons/bx_bxs-heart.svg" alt="heart-img">
+        </div>
+
+        <div class="middle-margin">
+            <div class="middle-margin-up">
+                <img class="mx-2" src="./icons/shuffle.svg" alt="shuffle-img">
+                <img class="mx-2" src="./icons/previous.svg" alt="previous-img">
+                <img class="mx-2" src="./icons/gridicons_play.png" alt="play-img">
+                <img class="mx-2" src="./icons/next.svg" alt="next-img">
+                <img class="mx-2" src="./icons/loop.svg" alt="loop-img">
+            </div>   
+            <div><img src="./icons/musicbar.png" alt="music-img"></div>
+        </div>
+        <div class="right-margin">
+            <img class="mx-1" src="./icons/microphone.png" alt="micriphone-img">
+            <img class="mx-1" src="./icons/list.png" alt="list-img">
+            <img class="mx-1" src="./icons/carbon_laptop.png" alt="carbon-laptop">
+            <img class="mx-1" src="./icons/speaker-black.png" alt="speaker-img">
+            <img class="mx-1" src="./icons/volume-bar.png" alt="volume-bar">
+            <img class="mx-1" src="./icons/strech-speaker.png" alt="strech-speaker">
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer d-flex justify-content-end align-items-center w-100">
+        <div class="mx-5" ><img src="./icons/speaker-black.png"> Listening on ASUS-ROG-G531GT</div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
