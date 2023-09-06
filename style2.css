@@ -41,11 +41,13 @@
 .right-block {
   flex: 6;
   height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
 }
 
 .right-upper {
   background: linear-gradient(180deg, #90aea7 0%, #000 89.7%);
-  height: 90%;
+  height: 86vh;
 }
 
 .right-top-text {
@@ -72,24 +74,36 @@
   height: 54px;
   flex-shrink: 0;
   border-radius: 5px;
-  
   background: #fff;
 }
 
-.my-card{
-    
+.song-name {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
+
+.song-artist-name,.album-name,.chinese-text {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
 .right-lower {
-  background: #000;
-  height: 10%;
+  background: #000!important;
+  height: 55vh;
 }
 
 .music-player {
   background: #181818;
   position: sticky;
-  height: 90px !important;
+  height: 80px !important;
+  width: 100%!important;
   bottom: 0;
-  width: 100%;
 }
 
 .left-margin {
@@ -98,6 +112,7 @@
 
 .middle-margin {
   flex: 2;
+  margin-left: 10%;
 }
 
 .middle-margin-up {
@@ -106,4 +121,6 @@
 
 .right-margin {
   flex: 1;
+  margin-left: 150px;
+
 }
